@@ -58,6 +58,9 @@ header .container {
     padding: 0 100px;
 }
 
+header .container img {
+    display: none;
+}
 
 header .container h1 {
     color: var(--green);
@@ -84,15 +87,75 @@ nav img {
     height: 45px;
 }
 
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 nav ul a {
     font-size: 24px;
     color: var(--green);
     text-decoration: none;
-    margin: 0 35px;
+
+   
 }
 
+nav ul a svg {
+    display: none;
+}
 
 section {
     height: 1500px;
     background: purple;
+}
+
+
+@media (max-width: 900px) {
+    header .container {
+      width: 100%;
+     
+    }
+
+    header .container img {
+        display: inline;
+        height: 35px;
+        margin-bottom: 70px;
+    }
+
+    nav { 
+        padding: 0 30px;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+    nav ul a {
+        font-size: 16px;
+
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    header .container {
+        padding: 0 45px;
+    }
+    nav {
+        padding: 0 15px;
+    }
+    nav ul a {
+        font-size: 12px;
+    }
+    nav ul a svg {
+        display: block;
+        margin: 0 auto 10px;
+    }
+
 }
