@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
 
 :root {
-    --purple: #5280E2;
-    --green: #15CDCB;
-    --bg-dark: #212226;  
+    --purple: #c78c51;
+    --green: #da9e63;
+    --bg-dark: #122223;  
     --light-gray: #E0DEDE;
 
     --menu-height: 75px;
@@ -35,6 +35,15 @@ p {
     color: var(--light-gray);
 }
 
+
+.title-golden {
+    color: var(--purple);
+}
+
+.title-goldenish {
+    color: var(--green);
+}
+
 button {
     background: var(--purple);
     border: 0;
@@ -62,9 +71,6 @@ header .container img {
     display: none;
 }
 
-header .container h1 {
-    color: var(--green);
-}
 
 header .container button {
     margin-top: 40px;
@@ -85,6 +91,7 @@ nav {
 
 nav img {
     height: 45px;
+   
 }
 
 nav ul {
@@ -105,10 +112,30 @@ nav ul a svg {
     display: none;
 }
 
-section {
-    height: 1500px;
-    background: purple;
+.about-me {
+    display: flex;
+    padding: 100px;
+    
 }
+
+.about-me .container {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-me .img-container {
+    width: 50%;
+    text-align: center;
+}
+
+.about-me .img-container img {
+    width: 60%;
+}
+
+
+
+
+
 
 
 @media (max-width: 900px) {
@@ -148,6 +175,10 @@ section {
         padding: 0 45px;
     }
     nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
         padding: 0 15px;
     }
     nav ul a {
