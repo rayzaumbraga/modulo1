@@ -25,7 +25,6 @@
         </p>
         <button>Entre em Contato</button>
       </div>
-      
     </header>
     <nav>
       <img
@@ -33,33 +32,164 @@
         alt="dev-logo"
       />
       <ul>
-        <a href=""><i data-feather="user"></i>Sobre mim</a>
-        <a href=""><i data-feather="tool"></i>Servicos</a>
-        <a href=""><i data-feather="briefcase"></i>Portfolio</a>
-        <a href=""><i data-feather="book-open"></i>Curriculum</a>
-        <a href=""><i data-feather="mail"></i>Contato</a>
+        <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+        <a href="#services"><i data-feather="tool"></i>Servicos</a>
+        <a href="#portfolio"><i data-feather="briefcase"></i>Portfolio</a>
+        <a href="#curriculum"><i data-feather="book-open"></i>Curriculum</a>
+        <a href="#contact"><i data-feather="mail"></i>Contato</a>
       </ul>
     </nav>
-    <section class="about-me">
-        <div class="container">
-          <h1 class="title-goldenish">Sobre Mim</h1>
+    <section class="about-me" id="aboutme">
+      <div class="container">
+        <h1 class="title-goldenish">Sobre Mim</h1>
+        <p>
+          Brasileiro de 33 anos, trabalho atualmente como cozinheiro, mas estou
+          tentando trocar de area e me tornar um desenvolvedor frontend. E desde
+          2023 trabalho com desenvolvimento frontend usando: html, css, js.
+          Atualmente trabalho com o framework Vue Js, mas tenho experiência com
+          React também. Sou muito criativo, adoro estudar sobre design, novas
+          tecnologias e estou sempre pronto para um novo desafio.
+        </p>
+      </div>
+      <div class="img-container">
+        <div class="line green"></div>
+        <div class="line purple"></div>
+
+        <img
+          src="https://zonacritica.com.br/wp-content/uploads/2023/01/Luffy-Gear-5.webp"
+          alt="Ray D. Luffy"
+        />
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h1 class="title-golden">Servicos</h1>
+      <div class="services-container">
+        <div class="service-card">
+          <img src="assets/black-terminal.png" alt="icone de terminal" />
+          <h2>Desenvolvimento de Sites</h2>
           <p>
-            Brasileiro de 33 anos, trabalho atualmente como cozinheiro, mas
-            estou tentando trocar de area e me tornar um desenvolvedor frontend.
-            E desde 2023 trabalho com desenvolvimento frontend usando: html,
-            css, js. Atualmente trabalho com o framework Vue Js, mas tenho
-            experiência com React também. Sou muito criativo, adoro estudar
-            sobre design, novas tecnologias e estou sempre pronto para um novo
-            desafio.
+            Desenvolvimento de sites empresariais. Faça sua empresa ser
+            facilmente encontrada online.
           </p>
         </div>
-        <div class="img-container">
-          <div class="line green"></div>
-          <div class="line purple"></div>
-
-          <img src="https://zonacritica.com.br/wp-content/uploads/2023/01/Luffy-Gear-5.webp" alt="Ray D. Luffy">
+        <div class="service-card">
+          <img src="assets/balckdev.png" alt="icone de codigo" />
+          <h2>Desenvolvimento de aplicacoes web</h2>
+          <p>
+            Desenvolvimento de aplicações web como sistemas de gerenciamento,
+            feito sob medida.
+          </p>
         </div>
+        <div class="service-card">
+          <img src="assets/diamond.png" alt="icone de diamante" />
+          <h2>Criacao de Layouts</h2>
+          <p>
+            Criação de protótipos de interfaces web e mobile para validar sua
+            ideia antes de por em prática.
+          </p>
+        </div>
+      </div>
     </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="title-golden">Portfolio</h1>
+      <div class="portfolio-container">
+        <div class="portfolio-card">
+          <div class="img-container">
+            <img src="" alt="" />
+          </div>
+          <div class="language-container">
+            <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>js</li>
+            </ul>
+          </div>
+          <p><b>Linktree</b></p>
+          <p>
+            Projeto feito usando html, css e js com o objetivo de ser um
+            agrupador de links para o instagram.
+          </p>
+        </div>
+        <div class="portfolio-card">
+          <div class="img-container">
+            <img src="" alt="" />
+          </div>
+          <div class="language-container">
+            <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>js</li>
+            </ul>
+          </div>
+          <p><b>Linktree</b></p>
+          <p>
+            Projeto feito usando html, css e js com o objetivo de ser um
+            agrupador de links para o instagram.
+          </p>
+        </div>
+        <div class="portfolio-card">
+          <div class="img-container">
+            <img src="" alt="" />
+          </div>
+          <div class="language-container">
+            <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>js</li>
+            </ul>
+          </div>
+          <p><b>Linktree</b></p>
+          <p>
+            Projeto feito usando html, css e js com o objetivo de ser um
+            agrupador de links para o instagram.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="curriculum" id="curriculum">
+      <h1 class="title-golden">Curriculum</h1>
+      <div class="container">
+        <img class="curriculum-img" src="assets/imagem.png" alt="imagem do curriculum">
+        <div class="content">
+          <div class="curriculum-info">
+              <span>Nome</span><b>Ray Braga</b>
+              <span>Idade</span><b>33</b>
+              <span>Cidade</span><b>Lisboa-PT</b>
+              <span>Telefone</span><b>+351 935106193</b>
+              <span>Email</span><b>rayzaumbraga@gmail.com</b>
+              <span>Freelance</span><b>disponivel</b>
+              <span>Exp</span><b>HTML, CSS, JS, Python, React, Vue JS</b>
+              <span>Idiomas</span><b>Ingles</b>
+          </div>
+          <button class="secondary-button">
+            <img src="assets/Union.png">
+            Baixe meu curriculum completo
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+      <h1>Vamos Trabalhar Juntos?</h1>
+      <p>Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em contato comigo!</p>
+      <button>Entre em contato</button>
+
+      <div class="social-media">
+        <a href=""><img src="assets/instagram.png" alt="instagram logo"></a>
+        <a href=""><img src="assets/linkedin.png" alt="linkedin logo"></a>
+        <a href=""><img src="assets/youtube.png" alt="youtube logo"></a>
+        <a href=""><img src="assets/whatsapp.png" alt="whatsapp logo"></a>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>Made by Ray Braga - 2023</p>
+    </footer>
 
     <script>
       feather.replace();
